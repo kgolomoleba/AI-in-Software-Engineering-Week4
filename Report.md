@@ -83,6 +83,30 @@ By learning from historical deployment patterns, AIOps automates repetitive task
 
 ---
 
+## Part 5: Ethical Reflection  
+
+When deploying the predictive model from **Task 3** in a real company setting, several ethical considerations arise:
+
+### Potential Biases in the Dataset  
+- The Breast Cancer dataset may not fully represent all demographics, potentially leading to biased predictions when applied to diverse populations or teams.  
+- This underrepresentation can cause unfair prioritization of resources, overlooking some groups’ needs.
+
+### Importance of Mitigating Bias  
+- Bias in predictive models can lead to unequal treatment and harm trust in AI systems.  
+- It is essential to ensure fairness to avoid negative social and legal consequences.
+
+### Fairness Tools and Mitigation Approaches  
+- **IBM AI Fairness 360 (AIF360)** provides metrics to detect biases (e.g., statistical parity, disparate impact).  
+- It offers methods such as:  
+  - Data pre-processing (reweighing samples to balance groups)  
+  - In-processing (adversarial debiasing during model training)  
+  - Post-processing (adjusting model outputs for fairness)  
+
+### Conclusion  
+Using fairness frameworks like **IBM AIF360** and continuously monitoring models can help maintain ethical AI deployment by promoting transparency, accountability, and equitable outcomes.
+
+---
+
 ## Summary  
 
 This assignment showcased:  
