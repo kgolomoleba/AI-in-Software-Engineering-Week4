@@ -107,6 +107,28 @@ Using fairness frameworks like **IBM AIF360** and continuously monitoring models
 
 ---
 
+## Bonus Task: Innovation Challenge  
+
+### Proposal: AI-Powered Automated Documentation Generator for Software Projects  
+
+#### Purpose  
+Develop an AI tool that automatically generates comprehensive, up-to-date documentation from source code and commit history. This addresses the common challenge where documentation is outdated, incomplete, or neglected, improving software maintainability and onboarding efficiency.
+
+#### Workflow  
+1. **Code Parsing:** The AI parses source code files to extract function signatures, classes, and inline comments.  
+2. **Commit Analysis:** It analyzes commit messages and diffs to capture feature additions, bug fixes, and refactoring details.  
+3. **Natural Language Generation:** Using advanced NLP models (e.g., GPT-based), the tool generates human-readable documentation sections explaining code functionality, usage examples, and change history.  
+4. **Continuous Integration:** Integrated into the CI/CD pipeline, documentation is automatically updated with every commit or release.  
+5. **Customization & Review:** Developers can customize templates and review AI-generated docs for accuracy before publishing.
+
+#### Impact  
+- **Increased Developer Productivity:** Reduces time spent manually writing or updating docs.  
+- **Improved Code Quality:** Better documentation leads to easier debugging and enhancements.  
+- **Faster Onboarding:** New team members can quickly understand codebases through clear, current documentation.  
+- **Enhanced Collaboration:** Consistent docs facilitate communication across distributed teams.
+
+---
+
 ## Summary  
 
 This assignment showcased:  
